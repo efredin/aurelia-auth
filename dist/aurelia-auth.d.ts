@@ -96,6 +96,7 @@ declare module 'aurelia-auth' {
     login(email: any, password: any): any;
     logout(redirectUri: any): any;
     authenticate(name: any, redirect: any, userData: any): any;
-    unlink(provider: any): any;
+	unlink(provider: any): any;
+	tokenInterceptor: any;
   }
 }
